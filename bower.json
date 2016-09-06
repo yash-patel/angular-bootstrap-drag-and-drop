@@ -1,0 +1,25 @@
+{
+  "name": "angular-bootstrap-drag-and-drop",
+  "description": "Angular bootstrap component drop down",
+  "main": "index.js",
+  "authors": [
+    "Yashwant Patel"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angularjs",
+    "drag",
+    "and",
+    "drop",
+    "twitter",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/yash-patel/angular-bootstrap-drag-and-drop",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-bootstrap": "^2.1.3",
+    "jquery": "^3.1.0",
+    "jquery-ui": "^1.12.0"
+  }
+}

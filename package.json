@@ -1,0 +1,23 @@
+{
+  "name": "angular-bootstrap-drag-and-drop",
+  "version": "1.0.0",
+  "description": "Angular twitter bootstrap components drag drop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yash-patel/angular-bootstrap-drag-and-drop/"
+  },
+  "keywords": [
+    "angularjs",
+    "drag",
+    "and",
+    "drop",
+    "twitter",
+    "bootstrap"
+  ],
+  "author": "Yashwant Patel",
+  "license": "MIT"
+}
