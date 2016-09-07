@@ -64,7 +64,13 @@
 
         <div ng-controller="dragDropBody" class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                {{name}}
+                <h1>{{name}}</h1>
+
+                <div class="btn btn-primary" data-drag="true" ng-model="list1" jqyoui-draggable="{animate:true}" ng-hide="!list1.title">{{list1.title}}</div>
+
+                <div class="thumbnail" data-drop="true" data-jqyoui-options ng-model="list2" jqyoui-droppable style='height:50px;'>
+                    <div class="btn btn-success" data-drag="true" data-jqyoui-options ng-model="list2" jqyoui-draggable ng-hide="!list2.title">{{list2.title}}</div>
+                </div>
             </div>
 
         </div>
