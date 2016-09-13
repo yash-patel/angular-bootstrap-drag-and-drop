@@ -1,0 +1,24 @@
+//$(document).ready(function () {
+$("ul.y-expander li").on("click", function () {
+    $(".y-expander .y-expander-content").hide();
+    $("ul.y-expander li").removeAttr("style");
+    var expander = $(this).find(".y-expander-content")
+    var visibleContent = $(this).find(".y-main-content");
+    $(this).height(expander.height() + visibleContent.height());
+    expander.show();
+});
+
+//})
+
+(function () {
+    var app = angular.module('bootsrapDrapDown', ['ngRoute', 'ui.bootstrap', "ngAnimate", "ngDragDrop"]);
+    app.controller("dragDropBody", ['$scope', function ($scope) {
+
+        $scope.name = "Basic Drag and Drop";
+        $scope.list1 = {
+            title: 'AngularJS - Drag Me'
+        };
+        $scope.list2 = {};
+        }]);
+
+})()
